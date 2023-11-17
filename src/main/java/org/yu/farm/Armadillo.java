@@ -1,11 +1,18 @@
 package org.yu.farm;
 
-public class Armadillo extends Animal {
+import org.yu.farm.scary.ScaryAnimal;
+
+public class Armadillo extends ScaryAnimal {
 
     public Armadillo(String name) {
         super(AnimalType.ARMADILLO, name);
     }
 
+    @Override
+    public void eatUnderYonderTree() {
+
+        System.out.println("Armadillo is eating under Yonder Tree!");
+    }
 
     @Override
     public void makeNoise() {

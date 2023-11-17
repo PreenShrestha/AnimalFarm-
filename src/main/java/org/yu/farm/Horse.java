@@ -11,6 +11,11 @@ public class Horse extends Animal {
     }
 
     @Override
+    public void eatUnderYonderTree() {
+        System.out.println("My, hay is quite yummy");
+    }
+
+    @Override
     public void makeNoise() {
         System.out.println("pflWhheeeeea");
     }

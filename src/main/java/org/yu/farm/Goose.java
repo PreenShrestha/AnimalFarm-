@@ -10,9 +10,15 @@ public class Goose extends Animal {
         super(species, name);
     }
 
+
     @Override
     public void makeNoise() {
         System.out.println("Honk!  Honk!");
     }
 
+    @Override
+    public void eatUnderYonderTree() {
+
+        System.out.println("Goose is eating under Younder Tree!!");
+    }
 }

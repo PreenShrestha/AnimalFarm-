@@ -6,6 +6,10 @@ public class Cat extends Animal {
         super(AnimalType.CAT, name);
     }
 
+    @Override
+    public void eatUnderYonderTree() {
+        System.out.println("Meow Meow, I am eating!!");
+    }
 
     @Override
     public void makeNoise() {

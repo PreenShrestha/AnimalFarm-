@@ -11,6 +11,12 @@ public class Hen extends Animal {
     }
 
     @Override
+    public void eatUnderYonderTree() {
+
+        System.out.println("Hen is eating under Younder Tree");
+    }
+
+    @Override
     public void makeNoise() {
         System.out.println("Shimmy-Shack!");
     }

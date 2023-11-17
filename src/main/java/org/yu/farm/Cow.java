@@ -10,6 +10,12 @@ public class Cow extends Animal {
         super(species, name);
     }
 
+
+    @Override
+    public void eatUnderYonderTree() {
+        System.out.println("Moo, Moo, Yummy grass");
+    }
+
     @Override
     public void makeNoise() {
         System.out.println("Tweet tweet tweet!");

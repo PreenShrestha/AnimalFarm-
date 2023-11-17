@@ -10,9 +10,14 @@ public class Duck extends Animal {
         super(species, name);
     }
 
+
     @Override
     public void makeNoise() {
         System.out.println("Quack!  Quack!");
     }
 
+    @Override
+    public void eatUnderYonderTree() {
+        System.out.println("Ducky Duck, Yum Yum!!");
+    }
 }
